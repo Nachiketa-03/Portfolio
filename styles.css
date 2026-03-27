@@ -207,10 +207,10 @@ body {
     padding: 0.45rem 1.2rem;
     background: rgba(212,168,67,0.10); border: 1px solid rgba(212,168,67,0.22);
     border-radius: 50px; font-size: 0.82rem; color: var(--primary-light);
-    margin-bottom: 2rem; font-weight: 500;
+    margin-bottom: 1.2rem; margin-top: 0.5rem; font-weight: 500;
     font-family: 'Fira Code', monospace;
     backdrop-filter: blur(10px); letter-spacing: 0.5px;
-    animation: heroFadeIn 1.2s var(--ease) 0.2s both;
+    animation: heroFadeIn 1.4s var(--ease-out-expo) 0.35s both;
 }
 .hero-badge .dot {
     width: 8px; height: 8px; background: var(--primary);
