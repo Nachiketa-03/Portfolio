@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachiketa Kumar | Software Engineer</title>
+    <meta name="description" content="Nachiketa Kumar — Software Engineer at Wipro. AWS Certified Cloud Practitioner & Solutions Architect Associate. Full-Stack Developer & ML enthusiast.">
+    <meta property="og:title" content="Nachiketa Kumar | Software Engineer">
+    <meta property="og:description" content="Software Engineer at Wipro. AWS Certified. Full-Stack Developer & Machine Learning enthusiast.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#080C18">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>NK</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Particles -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- ===================== NAVIGATION ===================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">NK.</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-vignette"></div>
+        <div class="hero-content">
+            <div class="hero-badge"><span class="dot"></span> Software Engineer at Wipro</div>
+            <h1>Hi, I'm<br><span class="name-gradient">Nachiketa Kumar</span></h1>
+            <p class="hero-subtitle">Software Engineer &bull; AWS Solutions Architect &bull; Full-Stack Developer</p>
+            <div class="hero-typed" id="typedText"></div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+                <a href="#projects" class="btn btn-outline"><i class="fas fa-code"></i> View Projects</a>
+                <a href="https://linkedin.com/in/nachiketa03" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Nachiketa-03" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about-section" id="about">
+        <div class="section-header reveal">
+            <h2>About Me</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="about-bio reveal">
+            <div class="about-bio-icon"><i class="fas fa-user-tie"></i></div>
+            <p>Software Engineer at <strong>Wipro Limited</strong> with a B.Tech in Computer Science from <strong>VIT Vellore</strong>. I specialize in building full-stack web applications, designing cloud-native solutions on <strong>AWS</strong>, and applying machine learning to solve real-world problems. Holding two AWS certifications &mdash; <strong>Cloud Practitioner</strong> and <strong>Solutions Architect Associate</strong> &mdash; I bring a strong foundation in scalable, production-grade engineering.</p>
+        </div>
+
+        <div class="about-aspiration reveal">
+            <div class="aspiration-icon"><i class="fas fa-rocket"></i></div>
+            <blockquote class="aspiration-quote">
+                I aspire to become a <span class="highlight">leading innovator</span> at the intersection of <span class="highlight">Generative AI</span>, <span class="highlight">Cloud-Native Architecture</span>, and <span class="highlight">Cybersecurity</span> — building intelligent agents, scalable platforms, and secure systems that redefine how the world interacts with technology.
+            </blockquote>
+            <div class="aspiration-tags">
+                <span class="asp-tag"><i class="fas fa-wand-magic-sparkles"></i> Generative AI</span>
+                <span class="asp-tag"><i class="fas fa-robot"></i> LLMs &amp; AI Agents</span>
+                <span class="asp-tag"><i class="fas fa-brain"></i> Deep Learning</span>
+                <span class="asp-tag"><i class="fas fa-cloud"></i> Cloud Architecture (AWS)</span>
+                <span class="asp-tag"><i class="fas fa-shield-alt"></i> Cybersecurity</span>
+                <span class="asp-tag"><i class="fas fa-code"></i> Full-Stack Engineering</span>
+                <span class="asp-tag"><i class="fas fa-microchip"></i> MLOps &amp; Edge AI</span>
+                <span class="asp-tag"><i class="fas fa-chart-line"></i> Scalable Systems</span>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section" id="experience">
+        <div class="section-header reveal">
+            <h2>Experience</h2>
+            <div class="line"></div>
+        </div>
+        <div class="experience-card reveal-scale">
+            <div class="exp-header">
+                <div>
+                    <div class="exp-company">Wipro Limited</div>
+                    <div class="exp-role">Software Engineer</div>
+                </div>
+                <div style="text-align:right;">
+                    <div class="exp-current"><span class="dot"></span> Current</div>
+                    <div class="exp-date" style="margin-top:0.5rem;">
+                        <i class="fas fa-calendar-alt"></i> Nov 2025 &ndash; Present
+                    </div>
+                </div>
+            </div>
+            <div class="exp-description">
+                <ul class="exp-bullets">
+                    <li>Develop and maintain enterprise-grade microservices using <strong>Java</strong>, <strong>Node.js</strong>, and <strong>REST APIs</strong> within an agile team.</li>
+                    <li>Architect cloud infrastructure on <strong>AWS</strong> (EC2, S3, Lambda, RDS) for scalable, fault-tolerant deployments.</li>
+                    <li>Design and optimize relational &amp; NoSQL database schemas, improving query performance and data integrity.</li>
+                    <li>Collaborate across cross-functional teams in sprint planning, code reviews, and CI/CD pipeline maintenance.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section" id="education">
+        <div class="section-header reveal">
+            <h2>Education</h2>
+            <div class="line"></div>
+        </div>
+        <div class="timeline reveal">
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <h3>B.Tech in Computer Science &amp; Engineering</h3>
+                    <div class="institution">Vellore Institute of Technology, Vellore</div>
+                    <div class="meta">
+                        <span class="year"><i class="fas fa-calendar"></i> 2021 &ndash; 2025</span>
+                        <span class="score">CGPA: 8.48 / 10</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <h3>Senior Secondary (Class XII &mdash; CBSE)</h3>
+                    <div class="institution">Happy Valley School, Bhagalpur</div>
+                    <div class="meta">
+                        <span class="year"><i class="fas fa-calendar"></i> 2020</span>
+                        <span class="score">80.2%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-card">
+                    <h3>Secondary (Class X &mdash; BSEB)</h3>
+                    <div class="institution">Ramphal Singh High School, Nawada</div>
+                    <div class="meta">
+                        <span class="year"><i class="fas fa-calendar"></i> 2018</span>
+                        <span class="score">72.4%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section" id="projects">
+        <div class="section-header reveal">
+            <h2>Projects</h2>
+            <div class="line"></div>
+            <p>Real-world solutions I've engineered</p>
+        </div>
+        <div class="projects-grid stagger">
+            <div class="project-card reveal tilt">
+                <div class="card-glow" style="background:rgba(201,168,76,0.10)"></div>
+                <div class="project-icon gold"><i class="fas fa-globe"></i></div>
+                <h3>VICONNECT &ndash; Campus Companion</h3>
+                <div class="project-date">Aug 2024 &ndash; Jan 2025</div>
+                <p>Full-stack campus platform serving students with an AI chatbot, CGPA calculator, Google Maps navigation, sports reservations, and a real-time community forum secured with JWT authentication.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">Google Maps</span>
+                </div>
+            </div>
+            <div class="project-card reveal tilt">
+                <div class="card-glow" style="background:rgba(74,144,217,0.10)"></div>
+                <div class="project-icon blue"><i class="fas fa-baseball-ball"></i></div>
+                <h3>Cricket Score Prediction Engine</h3>
+                <div class="project-date">May 2024 &ndash; Aug 2024</div>
+                <p>Deep-learning pipeline that predicts live cricket scores using TensorFlow &amp; Keras. Deployed as a Flask REST API on Heroku with interactive Matplotlib &amp; Seaborn visualizations.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Keras</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Heroku</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">Scikit-learn</span>
+                </div>
+            </div>
+            <div class="project-card reveal tilt">
+                <div class="card-glow" style="background:rgba(155,164,184,0.10)"></div>
+                <div class="project-icon silver"><i class="fas fa-lock"></i></div>
+                <h3>Encrypted Password Vault</h3>
+                <div class="project-date">Jul 2023 &ndash; Dec 2023</div>
+                <p>Desktop password manager with AES-based Fernet encryption and SQLite persistence. Supports CRUD operations through a clean Tkinter interface with zero plain-text storage.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Fernet</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">Tkinter</span>
+                    <span class="tech-tag">Cryptography</span>
+                </div>
+            </div>
+            <div class="project-card reveal tilt">
+                <div class="card-glow" style="background:rgba(42,157,143,0.10)"></div>
+                <div class="project-icon teal"><i class="fas fa-leaf"></i></div>
+                <h3>Smart Livestock GHG Monitor</h3>
+                <div class="project-date">Jan 2023 &ndash; Jun 2023</div>
+                <p>IoT-based gas-detection system for cattle farms featuring threshold-triggered alarms and server-side telemetry, reducing environmental monitoring response time.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Proteus</span>
+                    <span class="tech-tag">Embedded C</span>
+                    <span class="tech-tag">Telemetry</span>
+                    <span class="tech-tag">IoT</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section" id="skills">
+        <div class="section-header reveal">
+            <h2>Technical Skills</h2>
+            <div class="line"></div>
+        </div>
+        <div class="skills-categories stagger">
+            <div class="skill-category reveal">
+                <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+                <h3>Languages</h3>
+                <div class="skill-list">
+                    <span class="skill-chip">Python</span>
+                    <span class="skill-chip">JavaScript</span>
+                    <span class="skill-chip">Java</span>
+                    <span class="skill-chip">C / C++</span>
+                    <span class="skill-chip">SQL</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-category-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Web &amp; Frameworks</h3>
+                <div class="skill-list">
+                    <span class="skill-chip">React</span>
+                    <span class="skill-chip">Node.js</span>
+                    <span class="skill-chip">Express.js</span>
+                    <span class="skill-chip">Flask</span>
+                    <span class="skill-chip">REST APIs</span>
+                    <span class="skill-chip">HTML / CSS</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-category-icon"><i class="fas fa-cloud"></i></div>
+                <h3>Cloud &amp; DevOps</h3>
+                <div class="skill-list">
+                    <span class="skill-chip">AWS (EC2, S3, Lambda, RDS)</span>
+                    <span class="skill-chip">Heroku</span>
+                    <span class="skill-chip">CI/CD</span>
+                    <span class="skill-chip">Docker</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+                <h3>Databases</h3>
+                <div class="skill-list">
+                    <span class="skill-chip">MongoDB</span>
+                    <span class="skill-chip">MySQL</span>
+                    <span class="skill-chip">SQLite</span>
+                    <span class="skill-chip">PostgreSQL</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-category-icon"><i class="fas fa-brain"></i></div>
+                <h3>Machine Learning</h3>
+                <div class="skill-list">
+                    <span class="skill-chip">TensorFlow</span>
+                    <span class="skill-chip">Keras</span>
+                    <span class="skill-chip">Scikit-learn</span>
+                    <span class="skill-chip">Pandas</span>
+                    <span class="skill-chip">NumPy</span>
+                    <span class="skill-chip">Matplotlib</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+                <h3>Tools &amp; Practices</h3>
+                <div class="skill-list">
+                    <span class="skill-chip">Git &amp; GitHub</span>
+                    <span class="skill-chip">VS Code</span>
+                    <span class="skill-chip">Agile / Scrum</span>
+                    <span class="skill-chip">Jira</span>
+                    <span class="skill-chip">Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ===================== CERTIFICATIONS ===================== -->
+    <section class="section" id="certifications">
+        <div class="section-header reveal">
+            <h2>Certifications</h2>
+            <div class="line"></div>
+        </div>
+        <div class="cert-grid stagger">
+            <div class="cert-card reveal">
+                <div class="cert-badge aws"><i class="fab fa-aws"></i></div>
+                <div class="cert-info">
+                    <h3>AWS Cloud Practitioner</h3>
+                    <div class="issuer">Amazon Web Services</div>
+                    <div class="validity"><i class="fas fa-check-circle"></i> Certified</div>
+                </div>
+            </div>
+            <div class="cert-card reveal">
+                <div class="cert-badge aws"><i class="fab fa-aws"></i></div>
+                <div class="cert-info">
+                    <h3>AWS Solutions Architect &ndash; Associate</h3>
+                    <div class="issuer">Amazon Web Services</div>
+                    <div class="validity"><i class="fas fa-check-circle"></i> Certified</div>
+                </div>
+            </div>
+            <div class="cert-card reveal">
+                <div class="cert-badge udemy"><i class="fas fa-graduation-cap"></i></div>
+                <div class="cert-info">
+                    <h3>Full Stack Web Developer</h3>
+                    <div class="issuer">Udemy</div>
+                    <div class="validity"><i class="fas fa-check-circle"></i> Completed</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ===================== ACTIVITIES ===================== -->
+    <section class="section" id="activities">
+        <div class="section-header reveal">
+            <h2>Beyond Engineering</h2>
+            <div class="line"></div>
+        </div>
+        <div class="activities-grid stagger">
+            <div class="activity-card reveal">
+                <div class="activity-icon volley"><i class="fas fa-volleyball-ball"></i></div>
+                <h3>National-Level Volleyball Athlete</h3>
+                <p>Represented Bihar in the 39th Sub Junior National Championship in Pondicherry, organized by Volleyball Federation of India.</p>
+            </div>
+            <div class="activity-card reveal">
+                <div class="activity-icon cross"><i class="fas fa-heart"></i></div>
+                <h3>Youth Red Cross &ndash; Core Member</h3>
+                <p>Organized blood donation drives since Feb 2022, raising awareness and encouraging student participation.</p>
+            </div>
+            <div class="activity-card reveal">
+                <div class="activity-icon chip"><i class="fas fa-microchip"></i></div>
+                <h3>RISC-V VEGA &ndash; IoT (C-DAC)</h3>
+                <p>Configured India's indigenous VEGA processors for IoT solutions, including an automated irrigation system. Workshop at C-DAC, Nov 2024.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact-section" id="contact">
+        <h2 class="reveal">Let's Connect</h2>
+        <div class="line"></div>
+        <p class="reveal">Open to new opportunities and collaborations. Reach out anytime!</p>
+        <div class="contact-cards reveal">
+            <a href="mailto:nachiketakumar331@gmail.com" class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">nachiketakumar331@gmail.com</div>
+                </div>
+            </a>
+            <a href="tel:+919351521207" class="contact-card">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <div class="contact-label">Phone</div>
+                    <div class="contact-value">+91 9351521207</div>
+                </div>
+            </a>
+            <div class="contact-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <div class="contact-label">Location</div>
+                    <div class="contact-value">Gurgaon, Haryana</div>
+                </div>
+            </div>
+            <a href="https://linkedin.com/in/nachiketa03" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                    <div class="contact-label">LinkedIn</div>
+                    <div class="contact-value">nachiketa03</div>
+                </div>
+            </a>
+            <a href="https://github.com/Nachiketa-03" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <i class="fab fa-github"></i>
+                <div>
+                    <div class="contact-label">GitHub</div>
+                    <div class="contact-value">Nachiketa-03</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <p>Designed &amp; Developed by <strong>Nachiketa Kumar</strong> &copy; 2026</p>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
